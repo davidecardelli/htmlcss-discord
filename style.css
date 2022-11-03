@@ -39,7 +39,7 @@ p {
 h3 {
     font-size: 180%;
     padding: 20px;
-    background-image: url(/img/stars.svg);
+    background-image: url(img/stars.svg);
     background-size: contain;
 }
 
