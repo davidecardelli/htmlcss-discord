@@ -37,8 +37,8 @@ body {
 .logo-footer,
 .text-footer,
 .pink-rectangle {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 
@@ -82,10 +82,8 @@ header {
 }
 
 .img-box {
-    background-color: lightseagreen;
     width: 60%;
     height: 450px;
-    border: 1px dashed black;
 }
 
 .img-box img {
@@ -93,10 +91,19 @@ header {
 }
 
 .text-box {
-    background-color: pink;
     width: 40%;
     height: 450px;
-    border: 1px dashed black;
+}
+
+.text-box h2{
+    font-size: 350%;
+    padding: 20px;
+}
+
+.text-box p{
+    font-size: 150%;
+    padding: 20px;
+    line-height: 120%;
 }
 
 .green-square {
