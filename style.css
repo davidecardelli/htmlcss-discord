@@ -88,6 +88,10 @@ header {
     border: 1px dashed black;
 }
 
+.img-box img {
+    height: 100%;
+}
+
 .text-box {
     background-color: pink;
     width: 40%;
