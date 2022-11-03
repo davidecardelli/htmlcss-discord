@@ -14,6 +14,23 @@ body {
 	font-family: sans-serif;
 }
 
+h2 {
+    font-size: 350%;
+    padding: 20px;
+}
+
+p {
+    font-size: 150%;
+    padding: 20px;
+    line-height: 120%;
+}
+
+h3 {
+    font-size: 200%;
+    padding: 20px;
+}
+
+
 /* UTILITY */
 
 .container {
@@ -33,7 +50,6 @@ body {
 
 .img-box,
 .text-box,
-.green-square,
 .logo-footer,
 .text-footer,
 .pink-rectangle {
@@ -95,24 +111,21 @@ header {
     height: 450px;
 }
 
-.text-box h2{
-    font-size: 350%;
-    padding: 20px;
-}
-
-.text-box p{
-    font-size: 150%;
-    padding: 20px;
-    line-height: 120%;
-}
-
 .green-square {
-    background-color: green;
-    width: 100%;
-    height: 900px;
-    display: inline-block;
-    border: 1px dashed black;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
+
+.mac {
+    background-color: #5865f2;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
 
 /* FOOTER */
 
