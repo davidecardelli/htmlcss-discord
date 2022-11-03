@@ -70,6 +70,12 @@ li {
     padding: 0px;
 }
 
+button {
+    background-color: #5865f2;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
 
 /* HEADER */
 
@@ -132,14 +138,6 @@ header {
     align-items: center; 
 }
 
-.mac {
-    background-color: #5865f2;
-    color: white;
-    padding: 10px 25px;
-    border-radius: 15px;
-}
-
-
 /* FOOTER */
 
 footer {
@@ -163,11 +161,9 @@ footer {
 }
 
 .social-footer {
-    background-color: green;
     width: 100%;
-    height: 60px;
-    margin-top: 30px;
-    border: 1px dashed white;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
